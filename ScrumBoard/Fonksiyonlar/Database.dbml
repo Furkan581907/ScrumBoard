@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ScrumOtomasyon" Class="DatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=BEKIRFURKAN3B50;Initial Catalog=ScrumOtomasyon;Integrated Security=True" SettingsObjectName="ScrumBoard.Properties.Settings" SettingsPropertyName="ScrumOtomasyonConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TBL_PROJELERS" Member="TBL_PROJELERs">
+    <Type Name="TBL_PROJELER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROJEKODU" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="PROJEADI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PROJEONEMI" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="PROJEADISOYADI" Type="System.String" DbType="NVarChar(75)" CanBeNull="true" />
+      <Column Name="PROJETELEFON" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="PROJEMAIL" Type="System.String" DbType="NVarChar(90)" CanBeNull="true" />
+      <Column Name="PROJEBASLANGICTARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PROJEBITISTARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PROJERESIM" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PROJESAVEUSER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROJESAVEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PROJEEDITUSER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROJEEDITDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_KULLANICILAR" Member="TBL_KULLANICILARs">
+    <Type Name="TBL_KULLANICILAR">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KULLANICIADI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KULLANICISIFRE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KULLANICIADSOYAD" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="KULLANICIAKTIF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KULLANICIKODU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KULLANICISAVEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="KULLANICIEDITDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="KULLANICILASTLOGIN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_SCRUM1" Member="TBL_SCRUM1s">
+    <Type Name="TBL_SCRUM1">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROJEID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KULLANICILARID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SCRUMBASLIK" Type="System.String" DbType="NVarChar(75)" CanBeNull="true" />
+      <Column Name="SCRUMEKLENECEKYER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SCRUMONEMI" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="SCRUMZAMAN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCRUMGOREVLI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SCRUMACIKLAMA" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SCRUMSAVEUSER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SCRUMSAVEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCRUMEDITUSER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SCRUMEDITDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

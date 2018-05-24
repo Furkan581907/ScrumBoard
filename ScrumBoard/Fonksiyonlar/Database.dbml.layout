@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Database">
+  <DataContextMoniker Name="/DatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3abb7984-0d5c-420d-b8cc-f089b1880042" absoluteBounds="0.625, 0.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/DatabaseDataContext/TBL_PROJELER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b70764cc-1312-412a-b042-cac3b2bc8195" absoluteBounds="0.63999999999999968, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="405ba2ea-5fbd-44d4-af50-312054ca3b09" absoluteBounds="2.875, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DatabaseDataContext/TBL_KULLANICILAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="57d003f5-441d-4863-8891-65f35d08be55" absoluteBounds="2.8899999999999997, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7172eae-b675-4b23-aff1-b2ac5200aac3" absoluteBounds="5.125, 0.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/DatabaseDataContext/TBL_SCRUM1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3965bd43-7dcf-4f2a-b637-461c036b5a2d" absoluteBounds="5.14, 0.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,16 @@
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\bin\Debug\ScrumBoard.exe.config
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.csprojResolveAssemblyReference.cache
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.AnaForm.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.Modul_Proje.frmProjeEkle.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.Modul_Proje.frmProjeListele.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.Properties.Resources.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.csproj.GenerateResource.Cache
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.exe.licenses
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\bin\Debug\ScrumBoard.exe
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\bin\Debug\ScrumBoard.pdb
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.exe
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.pdb
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.frmLoginForm.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.Modul_KullaniciIslemleri.frmKullaniciPanel.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.Modul_KullaniciIslemleri.frmKullaniciYonetimi.resources
+c:\users\bekirfurkanzadegil\documents\visual studio 2012\Projects\ScrumBoard\ScrumBoard\obj\Debug\ScrumBoard.Modul_Scrum.ScrumBoard.resources
